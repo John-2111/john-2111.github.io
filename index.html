@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildVR</title>
+    <link rel="stylesheet" href="styles/style.CSS">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="BuildVR Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#quienes-somos">¿Quiénes somos?</a></li>
+                <li><a href="#beneficios-vr">Beneficios del VR</a></li>
+                <li><a href="#catalogo-cursos">Catálogo de cursos</a></li>
+                <li><a href="#descarga">Descarga "BuildVR"</a></li>
+            </ul>
+            <a href="login.html"><button class="login-btn">Login</button></a>
+        </nav>
+    </header>
+
+    <section class="Pie">
+        <h1>BuildVR</h1>
+        <p>"Entrenamiento de calidad para una mejor construcción"</p>
+        <button class="contact-btn">Contáctanos</button>
+
+        <div class="contenedor-slider">
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide active" id="slide-1">
+                        <img src="slide1.jpg" alt="Imagen 1">
+                    </div>
+                    <div class="slide" id="slide-2">
+                        <img src="slide2.jpg" alt="Imagen 2">
+                    </div>
+                    <div class="slide" id="slide-3">
+                        <img src="slide3.jpg" alt="Imagen 3">
+                    </div>
+                    <div class="slide" id="slide-4">
+                        <img src="slide4.jpg" alt="Imagen 4">
+                    </div>
+                    <div class="slide" id="slide-5">
+                        <img src="slide4.jpg" alt="Imagen 5">
+                    </div>
+                </div>
+
+                <!-- Flechas de navegación -->
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="quienes-somos" class="Contenido">
+        <h2>¿Quiénes somos?</h2>
+        <p>Somos una empresa dedicada a ofrecer soluciones innovadoras de entrenamiento en el ámbito de la construcción utilizando realidad virtual...</p>
+    </section>
+
+    <section id="beneficios-vr" class="Contenido">
+        <h2>Beneficios del VR</h2>
+        <p>El uso de la realidad virtual en la construcción permite mejorar la seguridad, optimizar tiempos de aprendizaje y reducir costos...</p>
+    </section>
+
+    <section id="catalogo-cursos" class="Contenido">
+        <h2>Catálogo de cursos</h2>
+        <p>Disponemos de una amplia variedad de cursos enfocados en el entrenamiento con simulaciones realistas para personal de construcción...</p>
+    </section>
+
+    <section id="descarga" class="Contenido">
+        <h2>Descarga "BuildVR"</h2>
+        <p>Puedes descargar nuestra aplicación desde la tienda oficial para comenzar tu entrenamiento virtual hoy mismo...</p>
+    </section>
+
+    <footer>
+        <div class="Ayuda_flotante" id="AyudaBurbuja">
+        <div class="Signo">
+            <ion-icon name="help-circle"></ion-icon>
+        </div>
+    </div>
+
+<div class="Ingresar_aplicacion" id="Directoapp">
+    <div class="estrella">
+        <ion-icon name="star"></ion-icon>
+    </div>
+</div>
+        <p>© 2024 BuildVR</p>
+    </footer>
+
+    
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    </select>
+</body>
+</html>
