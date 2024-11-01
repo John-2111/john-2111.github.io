@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: #d4a017;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.login-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Pie {
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.Pie h1 {
+    text-align: left;
+    font-size: 48px;
+}
+
+.Pie p {
+    text-align: left;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.contact-btn {
+    text-align: left;
+    background-color: #d4a017;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contenedor-slider {
+    display: flex;
+    justify-content: right;
+}
+
+.slider {
+    width: 300px;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    position: relative;
+}
+
+.slide {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    transition: opacity 0.6s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 0;
+}
+
+button.next {
+    right: 0;
+}
+
+button.prev.hidden,
+button.next.hidden {
+    display: none;
+}
+
+.Contenido {
+    padding: 50px;
+    background-color: #dad8d8;
+    margin: 20px;
+}
+
+.Contenido h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.Contenido p {
+    font-size: 16px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #d4a017;
+    padding: 20px;
+    color: black;
+}
